@@ -7,6 +7,6 @@ Package.describe( {
 });
 
 Package.onUse(( api ) => {
-  api.use([ "ecmascript", "underscore"]);
+  api.use([ "ecmascript@0.6.1", "underscore@1.0.10"]);
   api.mainModule('authructor.js', 'server');
 });
