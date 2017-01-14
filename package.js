@@ -1,7 +1,9 @@
 Package.describe( {
   name: 'color:authructor',
-  summary: 'Publish auth secure.',
-  version: '0.0.1'
+  version: '0.0.1',
+  git: 'https://github.com/coloryazilim/authructor.git',
+  summary: 'Publish user security.',
+  documentation: 'README.md'
 });
 
 Package.onUse(( api ) => {
